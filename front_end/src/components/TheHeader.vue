@@ -1,6 +1,6 @@
 <template>
   <div>
-    <h1 class="home">Simulador de empréstimo - Bem Melhor</h1>
+    <h1 class="Title">Simulador de empréstimo</h1>
   </div>
 </template>
 
@@ -11,10 +11,9 @@ export default {
 </script>
 
 <style scoped>
-  .home {
+  .Title {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
   } 
 </style>

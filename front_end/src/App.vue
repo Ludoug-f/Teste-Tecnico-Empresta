@@ -1,16 +1,19 @@
 <template>
-  <header>
-    <TheHeader/>
-  </header>
+  <div id="app">
+    <TheHeader />
+    <LoanForm />
+  </div>
 </template>
 
 <script>
 import TheHeader from './components/TheHeader.vue'
+import LoanForm from './components/LoanForm.vue'
 
 export default {
   name: 'App',
   components: {
-    TheHeader
+    TheHeader,
+    LoanForm
   }
 }
 </script>
@@ -21,7 +24,7 @@ export default {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  color: #2c3e50;
+  color: #EF6C00;
   margin-top: 60px;
 }
 </style>
